@@ -22,14 +22,14 @@ const ContentSection = () => {
         </div>
         <div className="md:w-1/2 relative group">
           <div className="absolute -inset-2 bg-gradient-to-r from-yellow-400 to-yellow-600 rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"></div>
-          <img src="https://tiger365pro.com/img/Illustration-Desktop.avif" alt="Customer Support" className="relative rounded-xl shadow-2xl w-full border border-gray-100 transform transition-transform group-hover:scale-[1.02]" />
+          <img src="https://dummyimage.com/800x600/e5e7eb/111827.png&text=Customer+Support" alt="Customer Support" className="relative rounded-xl shadow-2xl w-full border border-gray-100 transform transition-transform group-hover:scale-[1.02]" />
         </div>
       </div>
 
       {/* Providing Best Experience Banner */}
       <div className="w-full max-w-7xl mx-auto mb-20 rounded-3xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.2)] relative group">
          <div className="absolute inset-0 bg-yellow-500 mix-blend-overlay opacity-0 group-hover:opacity-20 transition-opacity duration-500"></div>
-         <img src="https://tiger365pro.com/img/bet-with-the-best-desktop-new.jpg" alt="Bet With The Best" className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700" />
+         <img src="https://dummyimage.com/1200x400/e5e7eb/111827.png&text=Bet+With+The+Best" alt="Bet With The Best" className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700" />
       </div>
 
       {/* Getting Started Block */}
@@ -55,10 +55,10 @@ const ContentSection = () => {
             </h2>
             <p className="text-lg text-gray-700">Creating a fully safe and secure betting environment is all that you will get from Rafello Exch by simply following a few easy steps.</p>
             <ul className="space-y-4 text-lg text-gray-700">
-                <li className="flex gap-3"><span className="text-yellow-500 font-bold">✓</span> 24/7 support to reset password, get support in account setup, data safety, and instant updates on the betting options make this the most trusted and secure platform.</li>
-                <li className="flex gap-3"><span className="text-yellow-500 font-bold">✓</span> You will get live betting lines, instant support to explore betting markets, and the best suggestions to bet wisely.</li>
-                <li className="flex gap-3"><span className="text-yellow-500 font-bold">✓</span> Freedom of playing against the real players, setting your own betting odds, and access transaction history anytime are all that setting <strong className="text-gray-900 ml-1">Rafello Exch</strong> apart from others.</li>
-                <li className="flex gap-3"><span className="text-yellow-500 font-bold">✓</span> You will get easy options for our betting app for Android through a quick link available.</li>
+                <li className="flex gap-3"><span className="text-yellow-500 font-bold">✓</span> <span>24/7 support to reset password, get support in account setup, data safety, and instant updates on the betting options make this the most trusted and secure platform.</span></li>
+                <li className="flex gap-3"><span className="text-yellow-500 font-bold">✓</span> <span>You will get live betting lines, instant support to explore betting markets, and the best suggestions to bet wisely.</span></li>
+                <li className="flex gap-3"><span className="text-yellow-500 font-bold">✓</span> <span>Freedom of playing against the real players, setting your own betting odds, and access transaction history anytime are all that setting <strong className="text-gray-900 mx-1">Rafello Exch</strong> apart from others.</span></li>
+                <li className="flex gap-3"><span className="text-yellow-500 font-bold">✓</span> <span>You will get easy options for our betting app for Android through a quick link available.</span></li>
             </ul>
             <p className="text-lg text-gray-700 italic">Instant payment options – both deposits and withdraw the winning amount will make Rafello Exch the secure place to start wisely.</p>
           </section>

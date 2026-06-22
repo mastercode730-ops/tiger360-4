@@ -1,22 +1,22 @@
 import React from 'react';
 
 const games = [
-  { name: '32 Cards', id: 1, image: 'https://tiger365pro.com/img/32_cards.png' },
-  { name: 'Amar Akbar Anthony', id: 2, image: 'https://tiger365pro.com/img/aaa.png' },
-  { name: 'Andar Bahar', id: 3, image: 'https://tiger365pro.com/img/andarbahar.png' },
-  { name: 'Baccarat', id: 4, image: 'https://tiger365pro.com/img/bac.png' },
-  { name: 'Bollywood Casino', id: 5, image: 'https://tiger365pro.com/img/bc.png' },
-  { name: 'Roulette', id: 6, image: 'https://tiger365pro.com/img/casino.png' },
-  { name: 'Cricket', id: 7, image: 'https://tiger365pro.com/img/cricket.png' },
-  { name: 'Dragon Tiger', id: 8, image: 'https://tiger365pro.com/img/dragontiger.png' },
-  { name: 'Football', id: 9, image: 'https://tiger365pro.com/img/football.png' },
-  { name: 'Indian Casino', id: 10, image: 'https://tiger365pro.com/img/indian_casino.png' },
-  { name: '7 Up Down', id: 11, image: 'https://tiger365pro.com/img/l7.png' },
-  { name: 'Lucky 7', id: 12, image: 'https://tiger365pro.com/img/lucky_7.png' },
-  { name: 'Poker', id: 13, image: 'https://tiger365pro.com/img/poker.png' },
-  { name: 'Queen Race', id: 14, image: 'https://tiger365pro.com/img/queen.png' },
-  { name: 'Teen Patti', id: 15, image: 'https://tiger365pro.com/img/teenpatti.png' },
-  { name: 'Tennis', id: 16, image: 'https://tiger365pro.com/img/tennis.png' }
+  { name: '32 Cards', id: 1, image: 'https://dummyimage.com/600x400/e5e7eb/111827.png&text=32+Cards' },
+  { name: 'Amar Akbar Anthony', id: 2, image: 'https://dummyimage.com/600x400/e5e7eb/111827.png&text=Amar+Akbar+Anthony' },
+  { name: 'Andar Bahar', id: 3, image: 'https://dummyimage.com/600x400/e5e7eb/111827.png&text=Andar+Bahar' },
+  { name: 'Baccarat', id: 4, image: 'https://dummyimage.com/600x400/e5e7eb/111827.png&text=Baccarat' },
+  { name: 'Bollywood Casino', id: 5, image: 'https://dummyimage.com/600x400/e5e7eb/111827.png&text=Bollywood+Casino' },
+  { name: 'Roulette', id: 6, image: 'https://dummyimage.com/600x400/e5e7eb/111827.png&text=Roulette' },
+  { name: 'Cricket', id: 7, image: 'https://dummyimage.com/600x400/e5e7eb/111827.png&text=Cricket' },
+  { name: 'Dragon Tiger', id: 8, image: 'https://dummyimage.com/600x400/e5e7eb/111827.png&text=Dragon+Tiger' },
+  { name: 'Football', id: 9, image: 'https://dummyimage.com/600x400/e5e7eb/111827.png&text=Football' },
+  { name: 'Indian Casino', id: 10, image: 'https://dummyimage.com/600x400/e5e7eb/111827.png&text=Indian+Casino' },
+  { name: '7 Up Down', id: 11, image: 'https://dummyimage.com/600x400/e5e7eb/111827.png&text=7+Up+Down' },
+  { name: 'Lucky 7', id: 12, image: 'https://dummyimage.com/600x400/e5e7eb/111827.png&text=Lucky+7' },
+  { name: 'Poker', id: 13, image: 'https://dummyimage.com/600x400/e5e7eb/111827.png&text=Poker' },
+  { name: 'Queen Race', id: 14, image: 'https://dummyimage.com/600x400/e5e7eb/111827.png&text=Queen+Race' },
+  { name: 'Teen Patti', id: 15, image: 'https://dummyimage.com/600x400/e5e7eb/111827.png&text=Teen+Patti' },
+  { name: 'Tennis', id: 16, image: 'https://dummyimage.com/600x400/e5e7eb/111827.png&text=Tennis' }
 ];
 
 const GameGrid = () => {

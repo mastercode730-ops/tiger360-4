@@ -25,7 +25,7 @@ const Header = () => {
       {/* Background Image Setup */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://tiger365pro.com/img/desk.jpg" 
+          src="https://dummyimage.com/1920x1080/111827/4b5563.png&text=Hero+Background" 
           alt="Background" 
           className="w-full h-full object-cover opacity-60"
         />
@@ -64,13 +64,13 @@ const Header = () => {
               className="w-full p-4 rounded-lg bg-gray-900/60 border border-gray-600/50 text-white placeholder-gray-400 focus:outline-none focus:border-yellow-500 focus:ring-2 focus:ring-yellow-500/50 transition-all backdrop-blur-sm"
             />
             
-            <a href="https://www.247l.ink/s/Tiger365pro" className="block w-full pt-2">
+            <a href="https://wa.me/917589045547" className="block w-full pt-2">
               <button className="w-full bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 text-white font-bold py-4 px-4 rounded-lg transition-all shadow-[0_0_15px_rgba(37,99,235,0.5)] hover:shadow-[0_0_25px_rgba(37,99,235,0.7)] transform hover:-translate-y-1 uppercase tracking-wider">
                 LOGIN
               </button>
             </a>
             
-            <a href="https://www.247l.ink/s/Tiger365pro" className="block w-full">
+            <a href="https://wa.me/917589045547" className="block w-full">
               <button className="w-full bg-transparent border border-white/30 text-white hover:bg-white/10 font-semibold py-3 px-4 rounded-lg transition-colors text-sm">
                 LOGIN PROBLEM? CONTACT SUPPORT HERE
               </button>
@@ -78,17 +78,17 @@ const Header = () => {
 
             <div className="pt-4 text-center text-sm text-gray-300 space-y-2">
               <div>
-                Not registered? <a href="https://www.247l.ink/s/Tiger365pro" className="text-yellow-400 hover:text-yellow-300 font-bold underline transition-colors">Create an account</a>
+                Not registered? <a href="https://wa.me/917589045547" className="text-yellow-400 hover:text-yellow-300 font-bold underline transition-colors">Create an account</a>
               </div>
               <div>
-                <a href="https://www.247l.ink/s/Tiger365pro" className="text-white hover:text-yellow-400 transition-colors">Forgot Password</a>
+                <a href="https://wa.me/917589045547" className="text-white hover:text-yellow-400 transition-colors">Forgot Password</a>
               </div>
             </div>
 
             <div className="pt-4 text-xs text-center text-gray-400 border-t border-white/10 mt-4">
               This site is protected by reCAPTCHA and the <br />
-              <a href="https://www.247l.ink/s/Tiger365pro" className="hover:text-white underline">Google Privacy Policy</a> and{' '}
-              <a href="https://www.247l.ink/s/Tiger365pro" className="hover:text-white underline">Terms of Service</a> apply.
+              <a href="https://wa.me/917589045547" className="hover:text-white underline">Google Privacy Policy</a> and{' '}
+              <a href="https://wa.me/917589045547" className="hover:text-white underline">Terms of Service</a> apply.
             </div>
           </div>
         </div>

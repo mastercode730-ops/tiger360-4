@@ -21,7 +21,7 @@ function App() {
            <div className="container mx-auto px-4 text-center">
                <h4 className="text-3xl font-black text-gray-900 mb-4">What are you waiting for?</h4>
                <p className="text-lg text-gray-600 mb-8">Open and Get Your Online ID today and start winning with Rafello Exch.</p>
-               <a href="https://www.247l.ink/s/Tiger365pro" target="_blank" rel="noreferrer">
+               <a href="https://wa.me/917589045547" target="_blank" rel="noreferrer">
                  <button className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 font-bold py-4 px-10 rounded-full shadow-lg transition-transform transform hover:-translate-y-1 hover:shadow-xl text-xl">
                    GET RAFELLO EXCH ID
                  </button>
