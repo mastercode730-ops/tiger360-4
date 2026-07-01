@@ -31,18 +31,18 @@ const FAQ = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-20 bg-gray-50">
-      <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl font-black text-center text-gray-900 mb-12 drop-shadow-sm">Frequently Asked Questions</h2>
+    <div className="container mx-auto px-4 py-20 bg-brand-darkBg relative">
+      <div className="max-w-4xl mx-auto relative z-10">
+        <h2 className="text-4xl font-black text-center text-white mb-12 drop-shadow-[0_0_10px_rgba(0,240,255,0.5)]">Frequently Asked Questions</h2>
         <div className="space-y-6">
           {faqs.map((faq, index) => (
-            <div key={index} className="border border-gray-200 rounded-2xl shadow-lg bg-white overflow-hidden transition-all duration-300 hover:shadow-xl">
+            <div key={index} className="border border-gray-800 rounded-2xl shadow-[0_5px_15px_rgba(0,0,0,0.5)] bg-brand-darkCard overflow-hidden transition-all duration-300 hover:shadow-[0_5px_20px_rgba(0,240,255,0.2)] hover:border-brand-neonCyan/30">
               <button 
-                className={`w-full text-left px-8 py-6 font-black text-xl flex justify-between items-center focus:outline-none transition-colors duration-300 ${activeIndex === index ? 'bg-gray-900 text-yellow-500' : 'text-gray-900 hover:bg-gray-100'}`}
+                className={`w-full text-left px-8 py-6 font-black text-xl flex justify-between items-center focus:outline-none transition-colors duration-300 ${activeIndex === index ? 'bg-brand-neonCyan/10 text-brand-neonCyan border-b border-brand-neonCyan/20' : 'text-gray-300 hover:bg-brand-darkBg/50 hover:text-white'}`}
                 onClick={() => toggleFAQ(index)}
               >
                 <span>{faq.q}</span>
-                <span className={`transform transition-transform duration-500 ${activeIndex === index ? 'rotate-180 text-yellow-500' : 'text-gray-400'}`}>
+                <span className={`transform transition-transform duration-500 ${activeIndex === index ? 'rotate-180 text-brand-neonCyan drop-shadow-[0_0_5px_rgba(0,240,255,0.8)]' : 'text-gray-500'}`}>
                   ▼
                 </span>
               </button>
@@ -50,7 +50,7 @@ const FAQ = () => {
                 className={`grid transition-all duration-500 ease-in-out ${activeIndex === index ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`}
               >
                 <div className="overflow-hidden">
-                  <div className="px-8 py-6 text-gray-700 text-lg leading-relaxed border-t border-gray-100 bg-gray-50">
+                  <div className="px-8 py-6 text-gray-400 text-lg leading-relaxed bg-brand-darkCard/50">
                     {faq.a}
                   </div>
                 </div>
@@ -59,6 +59,9 @@ const FAQ = () => {
           ))}
         </div>
       </div>
+      {/* Decorative Blur Backgrounds */}
+      <div className="absolute top-1/4 left-0 w-64 h-64 bg-brand-neonPurple/10 rounded-full blur-[100px] pointer-events-none"></div>
+      <div className="absolute bottom-1/4 right-0 w-64 h-64 bg-brand-neonCyan/10 rounded-full blur-[100px] pointer-events-none"></div>
     </div>
   );
 };

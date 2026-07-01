@@ -8,9 +8,25 @@ export default {
     extend: {
       colors: {
         brand: {
-          dark: '#1a1a1a',
-          blue: '#113355',
-          gold: '#f0b90b',
+          darkBg: '#0B0F19',
+          darkCard: '#111827',
+          neonCyan: '#00F0FF',
+          neonPurple: '#8A2BE2',
+          neonPink: '#FF007F',
+        }
+      },
+      animation: {
+        'shimmer': 'shimmer 1.5s infinite',
+        'pulse-glow': 'pulse-glow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+      },
+      keyframes: {
+        shimmer: {
+          '0%': { transform: 'translateX(-100%)' },
+          '100%': { transform: 'translateX(100%)' },
+        },
+        'pulse-glow': {
+          '0%, 100%': { opacity: '1', boxShadow: '0 0 15px rgba(0, 240, 255, 0.5)' },
+          '50%': { opacity: '.7', boxShadow: '0 0 5px rgba(0, 240, 255, 0.2)' },
         }
       }
     },

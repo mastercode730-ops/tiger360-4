@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col font-sans bg-gray-50">
+    <div className="min-h-screen flex flex-col font-sans bg-brand-darkBg text-white overflow-hidden">
       <Header />
       <HeroBanner />
       
@@ -17,13 +17,15 @@ function App() {
         <GameGrid />
         <ContentSection />
         
-        <div className="bg-gray-100 py-12 border-y border-gray-200">
-           <div className="container mx-auto px-4 text-center">
-               <h4 className="text-3xl font-black text-gray-900 mb-4">What are you waiting for?</h4>
-               <p className="text-lg text-gray-600 mb-8">Open and Get Your Online ID today and start winning with Rafello Exch.</p>
+        <div className="bg-brand-darkCard py-12 border-y border-brand-neonCyan/30 relative overflow-hidden">
+           <div className="absolute inset-0 bg-gradient-to-r from-brand-neonCyan/10 via-transparent to-brand-neonPurple/10 mix-blend-overlay"></div>
+           <div className="container mx-auto px-4 text-center relative z-10">
+               <h4 className="text-3xl font-black text-white mb-4 drop-shadow-[0_0_10px_rgba(0,240,255,0.8)]">What are you waiting for?</h4>
+               <p className="text-lg text-gray-300 mb-8">Open and Get Your Online ID today and start winning with Rafello Exch.</p>
                <a href="https://wa.me/917589045547" target="_blank" rel="noreferrer">
-                 <button className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 font-bold py-4 px-10 rounded-full shadow-lg transition-transform transform hover:-translate-y-1 hover:shadow-xl text-xl">
-                   GET RAFELLO EXCH ID
+                 <button className="bg-brand-darkBg border-2 border-brand-neonCyan text-brand-neonCyan hover:bg-brand-neonCyan hover:text-brand-darkBg font-bold py-4 px-10 rounded-full transition-all duration-300 shadow-[0_0_15px_rgba(0,240,255,0.4)] hover:shadow-[0_0_30px_rgba(0,240,255,0.8)] transform hover:-translate-y-1 text-xl tracking-widest uppercase relative group">
+                   <span className="relative z-10">GET RAFELLO EXCH ID</span>
+                   <div className="absolute inset-0 bg-brand-neonCyan opacity-0 group-hover:opacity-20 rounded-full transition-opacity blur"></div>
                  </button>
                </a>
            </div>
