@@ -5,24 +5,44 @@ const FAQ = () => {
 
   const faqs = [
     {
-      q: "Why Should I Choose Rafello Exch for Betting on Cricket or Other Sports?",
-      a: "Rafello Exch is a trusted name, following all the regulatory compliances and providing you the freedom of playing and placing bets against the real players by setting your own odds. You will get instant solutions for any query. They provide Login support through website and app."
+      q: "What is Rafello Exech?",
+      a: "Rafello Exech is the brand or website referenced on this domain. Check the site's current pages and terms for the latest information."
     },
     {
-      q: "Is It Necessary to Create a Betting Account or Sign-up for Betting on Rafello Exch?",
-      a: "Yes, it provides you an identity number (betting ID) that is password protected to keep your personal details, betting account, etc confidential and protected. This will be your identity to manage all transactions."
+      q: "How can I access the Rafello Exech website?",
+      a: "Use the site's current official URL and verify the domain before entering any account information. Follow the access instructions published on the site."
     },
     {
-      q: "What Is the Easiest Way to Register Rafello Exch ID?",
-      a: "Simply click on the link received on WhatsApp or “Register Now’ button on the official website, provide personal details, verify the account through OTP, and start placing bets. This entire process will take lesser than a minute."
+      q: "What information is available on Rafello Exech?",
+      a: "Refer to Rafello Exech's current website information and terms for the most accurate answer."
     },
     {
-      q: "Can I Withdraw the Bonuses and Rewards Received at Rafello Exch?",
-      a: "You cannot withdraw the bonuses, rewards, and referral points. They are credited into your betting account to redeem or use for betting on sport events or playing casino games. This is the way to create an environment for free betting."
+      q: "How can I contact the website?",
+      a: "Use the contact or support details published on the website. Avoid relying on unofficial accounts or third-party contacts."
     },
     {
-      q: "How to Recover Password or Reset at Rafello Exch (If Required)?",
-      a: "Simply click on the forget password or reset button and submit the registered mobile number. Keep in mind, only registered mobile number or email ID are required to send an OTP. Once the details match and the OTP is verified, you will be allowed to change, reset, or recover the password."
+      q: "Where can I find account or access information?",
+      a: "Refer to Rafello Exech's current website information and terms for the most accurate answer."
+    },
+    {
+      q: "How can I verify the official website?",
+      a: "Refer to Rafello Exech's current website information and terms for the most accurate answer."
+    },
+    {
+      q: "Does Rafello Exech provide support?",
+      a: "Use the contact or support details published on the website. Avoid relying on unofficial accounts or third-party contacts."
+    },
+    {
+      q: "Where can I find the latest updates?",
+      a: "Check the website's latest posts, announcements, or relevant information pages for current updates."
+    },
+    {
+      q: "What should I do if a page is unavailable?",
+      a: "Refer to Rafello Exech's current website information and terms for the most accurate answer."
+    },
+    {
+      q: "How can I get help with website access?",
+      a: "Use the contact or support details published on the website. Avoid relying on unofficial accounts or third-party contacts."
     }
   ];
 
