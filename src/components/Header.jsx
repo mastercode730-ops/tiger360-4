@@ -64,14 +64,14 @@ const Header = () => {
               className="w-full p-4 rounded-lg bg-brand-darkBg/80 border border-gray-700 text-white placeholder-gray-500 focus:outline-none focus:border-brand-neonCyan focus:ring-2 focus:ring-brand-neonCyan/30 transition-all backdrop-blur-sm"
             />
             
-            <a href="https://wa.me/917589045547" className="block w-full pt-2">
+            <a href="https://wa.me/918360750829" className="block w-full pt-2">
               <button className="w-full bg-gradient-to-r from-brand-neonCyan to-brand-neonPurple hover:from-brand-neonPurple hover:to-brand-neonPink text-white font-bold py-4 px-4 rounded-lg transition-all shadow-[0_0_15px_rgba(0,240,255,0.5)] hover:shadow-[0_0_25px_rgba(138,43,226,0.7)] transform hover:-translate-y-1 uppercase tracking-widest relative overflow-hidden">
                 <span className="relative z-10">LOGIN</span>
                 <div className="absolute inset-0 bg-white/20 -translate-x-full hover:animate-[shimmer_1s_infinite]"></div>
               </button>
             </a>
             
-            <a href="https://wa.me/917589045547" className="block w-full">
+            <a href="https://wa.me/918360750829" className="block w-full">
               <button className="w-full bg-transparent border border-brand-neonCyan/50 text-brand-neonCyan hover:bg-brand-neonCyan/10 font-semibold py-3 px-4 rounded-lg transition-colors text-sm">
                 LOGIN PROBLEM? CONTACT SUPPORT HERE
               </button>
@@ -79,17 +79,17 @@ const Header = () => {
 
             <div className="pt-4 text-center text-sm text-gray-400 space-y-2">
               <div>
-                Not registered? <a href="https://wa.me/917589045547" className="text-brand-neonCyan hover:text-brand-neonPurple font-bold underline transition-colors">Create an account</a>
+                Not registered? <a href="https://wa.me/918360750829" className="text-brand-neonCyan hover:text-brand-neonPurple font-bold underline transition-colors">Create an account</a>
               </div>
               <div>
-                <a href="https://wa.me/917589045547" className="text-gray-300 hover:text-brand-neonPink transition-colors">Forgot Password</a>
+                <a href="https://wa.me/918360750829" className="text-gray-300 hover:text-brand-neonPink transition-colors">Forgot Password</a>
               </div>
             </div>
 
             <div className="pt-4 text-xs text-center text-gray-500 border-t border-gray-700 mt-4">
               This site is protected by reCAPTCHA and the <br />
-              <a href="https://wa.me/917589045547" className="hover:text-white underline">Google Privacy Policy</a> and{' '}
-              <a href="https://wa.me/917589045547" className="hover:text-white underline">Terms of Service</a> apply.
+              <a href="https://wa.me/918360750829" className="hover:text-white underline">Google Privacy Policy</a> and{' '}
+              <a href="https://wa.me/918360750829" className="hover:text-white underline">Terms of Service</a> apply.
             </div>
           </div>
         </div>
